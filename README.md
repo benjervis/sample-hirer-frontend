@@ -1,6 +1,8 @@
-# grad-bootcamp-sample-hirer-frontend
+# sample-hirer-frontend
 
 This project is powered by [sku](https://github.com/seek-oss/sku), [braid](https://github.com/seek-oss/braid-design-system) and built with [React](https://facebook.github.io/react).
+
+You can see a deployed version at http://capstone-sample-project.s3-website-ap-southeast-2.amazonaws.com
 
 ## Getting Started
 
