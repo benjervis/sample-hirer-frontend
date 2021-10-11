@@ -1,4 +1,4 @@
-import { Application, ApplicationQuestion, Candidate, Job } from 'src/types';
+import { Application, Candidate, Job } from 'src/types';
 
 export const sampleJobs: Record<string, Job> = {
   'b02a6908-b970-480e-b307-4d556cdea211': {
@@ -10,34 +10,38 @@ export const sampleJobs: Record<string, Job> = {
     employmentType: 'casual',
     location: 'Yasnogorsk',
     postedDate: '2020-12-24T03:05:36Z',
-  }, 'ab4a6c86-d61a-45a8-9427-347e7c4e4781': {
+  },
+  'ab4a6c86-d61a-45a8-9427-347e7c4e4781': {
     id: 'ab4a6c86-d61a-45a8-9427-347e7c4e4781',
     title: 'Compensation Analyst ',
     description:
       'Learn From Home is looking for a compensation analyst to join their team. We are looking for candidates with at least five years of experience, and require them to perform detailed research and analysis and provide thoughtful recommendations to the company. This is a part-time position.',
     hirerId: 'edb0dfeb-3156-463d-80e1-3ca6b92b42fb',
-    employmentType: 'part time',
+    employmentType: 'partTime',
     location: 'Camargo',
     postedDate: '2020-12-24T03:05:36Z',
-  }, '9164190c-49ba-4ea6-98a1-c1984a80a448': {
+  },
+  '9164190c-49ba-4ea6-98a1-c1984a80a448': {
     id: '9164190c-49ba-4ea6-98a1-c1984a80a448',
     title: 'Senior Developer',
     description:
       'We are looking for a senior Python developer to join our fast growing team at H2o Software. The position is remote, and requires the chosen candidate to manage a team of 10.',
     hirerId: '802799b9-f19d-4b21-a853-c2ada6ad301b',
-    employmentType: 'part time',
+    employmentType: 'partTime',
     location: 'Huari',
     postedDate: '2020-02-01T03:05:36Z',
-  }, '0d9c39f9-9a9f-4d10-acea-f847977047c9': {
+  },
+  '0d9c39f9-9a9f-4d10-acea-f847977047c9': {
     id: '0d9c39f9-9a9f-4d10-acea-f847977047c9',
     title: 'Biostatistician II',
     description:
       'The Ministry of Health, Labour and Welfare of Japan is searching for a Biostatistician II. Candidates need to have a minimum of four years’ experience in biostatistics, and must have a Master’s degree relating to health.',
     hirerId: '69c2353b-a7b5-40ab-bbcc-2029c1b0fa41',
-    employmentType: 'part time',
+    employmentType: 'partTime',
     location: 'Nagoya',
     postedDate: '2020-03-02T03:05:36Z',
-  }, 'b0ba05a0-ae19-469d-b366-5fa748be6551': {
+  },
+  'b0ba05a0-ae19-469d-b366-5fa748be6551': {
     id: 'b0ba05a0-ae19-469d-b366-5fa748be6551',
     title: 'VP Sales',
     description:
@@ -46,7 +50,8 @@ export const sampleJobs: Record<string, Job> = {
     employmentType: 'contract',
     location: 'Guadalupe',
     postedDate: '2020-20-12T03:05:36Z',
-  }, '3f0797ec-2b4a-4ec8-9c04-c4b40f95c417': {
+  },
+  '3f0797ec-2b4a-4ec8-9c04-c4b40f95c417': {
     id: '3f0797ec-2b4a-4ec8-9c04-c4b40f95c417',
     title: 'Paralegal',
     description:
@@ -55,16 +60,18 @@ export const sampleJobs: Record<string, Job> = {
     employmentType: 'contract',
     location: 'Penedo',
     postedDate: '2022-01-18T03:05:36Z',
-  }, '1d954209-c0c1-46ba-b584-4d535e78c63d': {
+  },
+  '1d954209-c0c1-46ba-b584-4d535e78c63d': {
     id: '1d954209-c0c1-46ba-b584-4d535e78c63d',
     title: 'Mechanical Systems Engineer',
     description:
       'Longpine Manufacturers is looking for a mechanical systems engineer to tackle the task of designing, implementing, and monitoring new equipment that will be used for the design of silicon moulds. Five years of experience is advantageous, but candidates with two years of experience and up will be considered.',
     hirerId: '26445974-6842-49de-bacf-9b6db9e28c5f',
-    employmentType: 'part time',
+    employmentType: 'partTime',
     location: 'Cape Town',
     postedDate: '2020-01-10T03:05:36Z',
-  }, 'a4fa5ad3-25b8-4925-a627-293d8d86fc74': {
+  },
+  'a4fa5ad3-25b8-4925-a627-293d8d86fc74': {
     id: 'a4fa5ad3-25b8-4925-a627-293d8d86fc74',
     title: 'Food Chemist',
     description:
@@ -73,16 +80,18 @@ export const sampleJobs: Record<string, Job> = {
     employmentType: 'contract',
     location: 'Sydney',
     postedDate: '2020-01-25T03:05:36Z',
-  }, '8ba10f4a-1b4a-411f-a88c-8e25b19bc2f4': {
+  },
+  '8ba10f4a-1b4a-411f-a88c-8e25b19bc2f4': {
     id: '8ba10f4a-1b4a-411f-a88c-8e25b19bc2f4',
     title: 'Pharmacist',
     description:
       'Our family-owned pharmacy is searching for a well-experienced pharmacist to work full time. Impeccable communication and customer service skills are crucial.',
     hirerId: '923bed05-1a95-4242-b64b-78b02fece3b2',
-    employmentType: 'full time',
+    employmentType: 'fullTime',
     location: 'Pécs',
     postedDate: '2022-02-18T03:05:36Z',
-  }, 'ec3705a4-c745-4043-bcda-d30641cd55a0': {
+  },
+  'ec3705a4-c745-4043-bcda-d30641cd55a0': {
     id: 'ec3705a4-c745-4043-bcda-d30641cd55a0',
     title: 'VP Sales',
     description:
@@ -91,41 +100,39 @@ export const sampleJobs: Record<string, Job> = {
     employmentType: 'contract',
     location: 'Vouani',
     postedDate: '2020-02-01T03:05:36Z',
-  }
-
-}
+  },
+};
 
 export const sampleCandidates: Record<string, Candidate> = {
-    '23af134d-2612-42c9-9948-3c99869cd7e8': {
-        id: '23af134d-2612-42c9-9948-3c99869cd7e8',
-        firstName: 'Issie',
-        lastName: 'Keizman',
-        email: 'ikeizman5@eepurl.com',
-    }
-}
+  '23af134d-2612-42c9-9948-3c99869cd7e8': {
+    id: '23af134d-2612-42c9-9948-3c99869cd7e8',
+    firstName: 'Issie',
+    lastName: 'Keizman',
+    email: 'ikeizman5@eepurl.com',
+  },
+};
 
 export const sampleApplications: Record<string, Application> = {
-    '4931b79f-89d5-4d8e-a158-7a8817029d53': {
-      id: '4931b79f-89d5-4d8e-a158-7a8817029d53',
-      jobId: 'b02a6908-b970-480e-b307-4d556cdea219',
-      candidateId: '23af134d-2612-42c9-9948-3c99869cd7e8d',
-      resumeLink:
-        'https://resume',
-      coverLetterText:
-        'I am a dedicated worker, with fifteen years of experience in finance. My work has allowed the various companies I have worked at to make wholly informed financial choices that have contributed to their successes.',
-      questions: [
-        {
-          id: 'b6825a6d-1324-47bf-892e-d95dd3efd4f8',
-          questionText: 'Why are you interested in this position at LevelledUp?',
-          answer:
-            'I am very interested in helping companies in app development solve their unique financial needs. I have experience in this field, and am able to effectively and efficiently address your specific needs.',
-        },
-        {
-            id: 'b6825a6d-1324-47bf-892e-d95dd3efd4f9',
-            questionText: 'What is your experience in management?',
-            answer:
-              'I have extensive experience in management as I have headed the accounting teams at my previous three positions'
-        }
-      ],
-    }
-}
+  '4931b79f-89d5-4d8e-a158-7a8817029d53': {
+    id: '4931b79f-89d5-4d8e-a158-7a8817029d53',
+    jobId: 'b02a6908-b970-480e-b307-4d556cdea219',
+    candidateId: '23af134d-2612-42c9-9948-3c99869cd7e8d',
+    resumeLink: 'https://resume',
+    coverLetterText:
+      'I am a dedicated worker, with fifteen years of experience in finance. My work has allowed the various companies I have worked at to make wholly informed financial choices that have contributed to their successes.',
+    questions: [
+      {
+        id: 'b6825a6d-1324-47bf-892e-d95dd3efd4f8',
+        questionText: 'Why are you interested in this position at LevelledUp?',
+        answer:
+          'I am very interested in helping companies in app development solve their unique financial needs. I have experience in this field, and am able to effectively and efficiently address your specific needs.',
+      },
+      {
+        id: 'b6825a6d-1324-47bf-892e-d95dd3efd4f9',
+        questionText: 'What is your experience in management?',
+        answer:
+          'I have extensive experience in management as I have headed the accounting teams at my previous three positions',
+      },
+    ],
+  },
+};
